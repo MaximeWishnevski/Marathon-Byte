@@ -5,22 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header>
+    <header class="container header-content">
       <div>
         <a href="#">
           <img src="./img/logo.svg" />
         </a>
       </div>
-      <nav>
-        <span><a href="#">Home</a></span>
-        <span><a href="#">Product</a></span>
-        <span><a href="#">Faq</a></span>
-        <span><a href="#">Contact</a></span>
+      <nav class="main-nav">
+        <span class="main-nav__span"><a class="main-nav__link" href="#">Home</a></span>
+        <span class="main-nav__span"><a class="main-nav__link" href="#">Product</a></span>
+        <span class="main-nav__span"><a class="main-nav__link" href="#">Faq</a></span>
+        <span class="main-nav__span"><a class="main-nav__link" href="#">Contact</a></span>
       </nav>
     </header>
-    <footer>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <p class="hero__app">Restaurant app</p>
+          <h1 class="hero__title">Why stay hungry when you can order form Eats</h1>
+          <p class="hero__description">Order in exchange for hunger</p>
+          <div class="button-container">
+            <button class="hero-btn">Delivery</button>
+            <button class="hero-btn">Menu</button>
+          </div>
+        </div>
+      </section>
+      <section class="app container">
+       <h2 class="app__title">How the app works</h2> 
+      <div class="mobile-flex">
+        <div>
+        <img src="./img/phone1.png" alt="phone">
+      </div>
+      <div>
+        <p class="mobile-flex__desc">Create an account</p>
+        <h3 class="mobile-flex__title">Create/login to an existing account to get started</h3>
+        <p class="mobile-flex__info">An account is created with your email and a desired password</p>
+      </div>
+      </div>
+      <div class="mobile-flex">
+        
+      
+      <div>
+        <p class="mobile-flex__desc">Create an account</p>
+        <h3 class="mobile-flex__title">Create/login to an existing account to get started</h3>
+        <p class="mobile-flex__info">An account is created with your email and a desired password</p>
+      </div>
+      <div>
+        <img src="./img/phone2.png" alt="phone">
+      </div>
+      </div>
+      </section>
+      <section class="store">
+        <div class="container">
+          <h4 class="store__title">Order now.</h3>
+          <p class="store__description">
+            Available on your favorite store. Start your premium experience now
+          </p>
+          <div class="button-container">
+            <button class="store-btn">Playstore</button>
+            <button class="store-btn">App store</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container footer-content">
       <div>
         <a href="#">
           <img src="./img/logo.svg" />
